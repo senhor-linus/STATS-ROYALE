@@ -1,0 +1,9 @@
+body{
+    background-image: url(STATS.jpg);
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
