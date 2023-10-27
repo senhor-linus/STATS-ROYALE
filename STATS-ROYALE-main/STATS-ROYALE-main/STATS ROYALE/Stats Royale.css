@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    color: rgb(226, 255, 65);
+    color: gold;
     font-size: 40px;
     background-color: rgb(40, 55, 119);
     background-image: url(clash-royale-wallpaper-3554x1999_53.jpg);
@@ -8,7 +8,7 @@ body{
 
 h1 {
     font-size: 68px;
-    color:  rgb(226, 255, 65);
+    color: gold;
     font-style:italic;
 }
 
