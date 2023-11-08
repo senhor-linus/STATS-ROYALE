@@ -46,13 +46,16 @@
     <script>
         
         function logar(){
-            var login = document.getElementById('login').value;
-            var login = document.getElementById('senha').value;
+            event.preventDefault();
 
-            if(login == "admin" && senha == "admin"){
+            let user = document.getElementById('login').value;
+            let pass = document.getElementById('senha').value;
+
+            if(user == "golem" && pass == "golem"){
                 alert('Sucesso');
+                window.location.href = "pagina inicial.html";
             }else{
-                alert('Usuário ou senha incorretas')
+                alert('Usuário ou senha incorretas');
             }
         }
 
